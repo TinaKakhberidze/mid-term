@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+.container {
+  max-width: 1052px;
+  width: 100%;
+  margin: 0 auto;
+}
+body {
+  background-color: white;
+}
+.input-user {
+  display: flex;
+  justify-content: space-between;
+}
+.header-first-group {
+  display: flex;
+  margin-left: 20px;
+}
+.logo {
+  margin-top: 40px;
+
+  width: 146px;
+  height: 32px;
+}
+.lines {
+  margin-top: 50px;
+  width: 26px;
+  height: 11px;
+  margin-left: 87px;
+  margin-right: 55px;
+}
+
+.input-search {
+  display: flex;
+  justify-content: space-between;
+}
+.input {
+  position: relative;
+  margin-top: 30px;
+}
+input {
+  width: 446px;
+  height: 56px;
+  border-radius: 15px;
+  background-color: #f8f8f8;
+  font-size: 14px;
+  color: #111111;
+}
+.search {
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 400px;
+}
+.user-group {
+  display: flex;
+  margin-top: 48px;
+  margin-right: 25px;
+}
+.email-bell {
+  width: 24px;
+  height: 24px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.user {
+  width: 56px;
+  height: 56px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.go-pro a {
+  font-size: 14px;
+  width: 55px;
+  height: 19px;
+  color: #ff2288;
+}
+.upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 129px;
+  height: 56px;
+  border-radius: 15px;
+  background-color: #ff2288;
+}
+.upload a {
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+}
+.list-filters {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  display: flex;
+  margin-top: 87px;
+}
+
+.list a {
+  margin-right: 50px;
+  color: #222222;
+  font-size: 16px;
+}
+.filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  width: 132px;
+  height: 56px;
+  background-color: #d8d8d8;
+  border: 1px solid #d8d8d8;
+  border-radius: 15px;
+}
+.filters img {
+  margin-right: 20px;
+}
+.filters img a {
+  width: 24px;
+  height: 24px;
+}
+.filters a {
+  color: #222222;
+  font-size: 16px;
+}
