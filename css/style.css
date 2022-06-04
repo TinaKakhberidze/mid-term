@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 100%;
 }
 a {
   text-decoration: none;
@@ -70,6 +71,7 @@ input {
   background-color: #f8f8f8;
   font-size: 14px;
   color: #111111;
+  font-family: "BPG Nateli";
 }
 .search {
   position: absolute;
@@ -97,6 +99,7 @@ input {
   height: 10px;
   background-color: #ff2288;
   border-radius: 15px;
+  font-family: "BPG Nateli";
 }
 
 .circle-two::after {
@@ -108,6 +111,7 @@ input {
   background-color: #ff2288;
   border-radius: 15px;
   margin-right: 40px;
+  font-family: "BPG Nateli";
 }
 .user {
   width: 56px;
@@ -120,6 +124,7 @@ input {
   width: 55px;
   height: 19px;
   color: #ff2288;
+  font-family: "BPG Glaho Arial";
 }
 .upload {
   display: flex;
@@ -129,6 +134,7 @@ input {
   height: 56px;
   border-radius: 15px;
   background-color: #ff2288;
+  font-family: "BPG Glaho Arial";
 }
 .upload a {
   color: #ffffff;
@@ -187,6 +193,7 @@ aside {
   width: 319px;
   height: 1200px;
   background-color: #111111;
+  font-family: "BPG Nateli";
 }
 .home {
   margin-left: 45px;
@@ -201,6 +208,7 @@ aside {
 .home a {
   font-size: 16px;
   color: #ffffff;
+  font-family: "BPG Nateli";
 }
 
 .home-first {
@@ -222,6 +230,7 @@ aside {
 .following p {
   font-size: 16px;
   color: #ffffff;
+  font-family: "BPG Nateli";
 }
 .follow-button {
   margin-top: 87px;
@@ -230,6 +239,7 @@ aside {
   width: 66px;
   font-size: 12px;
   color: #ffffff;
+  font-family: "BPG Nateli";
 }
 .follow-avatar {
   margin-top: 31px;
@@ -252,6 +262,7 @@ aside {
   height: 19px;
   font-size: 14px;
   color: #ffffff;
+  font-family: "BPG Nateli";
 }
 .section-group-one {
   display: grid;
@@ -269,6 +280,7 @@ aside {
   width: 289px;
   height: 52px;
   color: #222222;
+  font-family: "BPG Nateli";
 }
 .load2 {
   position: relative;
@@ -290,6 +302,7 @@ aside {
   height: 21px;
   font-size: 16px;
   color: #222222;
+  font-family: "BPG Nateli";
 }
 .section-top {
   position: relative;
@@ -308,6 +321,7 @@ aside {
   height: 43px;
   font-size: 32px;
   color: #222222;
+  font-family: "BPG Glaho Arial";
 }
 .section-group-two {
   margin-top: 54px;
@@ -334,6 +348,7 @@ aside {
   color: #222222;
   margin-left: 30px;
   margin-top: 15px;
+  font-family: "BPG Nateli";
 }
 .avatar div .city {
   width: 118px;
@@ -343,6 +358,7 @@ aside {
   opacity: 0.6;
   margin-left: 30px;
   margin-top: 10px;
+  font-family: "BPG Nateli";
 }
 .avatar-following {
   position: relative;
@@ -359,6 +375,7 @@ aside {
   top: 12px;
   font-size: 14px;
   color: #222222;
+  font-family: "BPG Nateli";
 }
 .all-columns {
   display: flex;
@@ -375,11 +392,13 @@ aside {
   margin-bottom: 10px;
   font-size: 16px;
   color: #222222;
+  font-family: "BPG Nateli";
 }
 .first-list a p {
   margin-top: 33px;
   font-size: 16px;
   color: #222222;
+  font-family: "BPG Nateli";
 }
 .second-column {
   display: flex;
@@ -391,11 +410,13 @@ aside {
   margin-bottom: 15px;
   font-size: 16px;
   color: #222222;
+  font-family: "BPG Nateli";
 }
 .second-list a p {
   margin-top: 20px;
   font-size: 16px;
   color: #222222;
+  font-family: "BPG Nateli";
 }
 .third-column {
   display: flex;
@@ -407,11 +428,13 @@ aside {
   margin-bottom: 15px;
   font-size: 16px;
   color: #222222;
+  font-family: "BPG Nateli";
 }
 .third-list a p {
   margin-top: 20px;
   font-size: 16px;
   color: #222222;
+  font-family: "BPG Nateli";
 }
 .fourth-column {
   display: flex;
@@ -423,16 +446,28 @@ aside {
   margin-bottom: 15px;
   font-size: 16px;
   color: #222222;
+  font-family: "BPG Nateli";
 }
 .fourth-list a p {
   margin-top: 33px;
   font-size: 16px;
   color: #222222;
+  font-family: "BPG Nateli";
 }
 .last-part {
   display: flex;
   justify-content: space-between;
   margin-top: 153px;
+}
+.for-academy .for {
+  width: 144px;
+  height: 21px;
+  color: #222222;
+  font-size: 16px;
+  font-family: "BPG Nateli";
+}
+.for-academy p span .smartacademy {
+  font-family: "BPG Glaho Arial";
 }
 .last-part img {
   margin-right: 15px;
@@ -458,6 +493,7 @@ aside {
   margin-right: 123px;
   font-size: 18px;
   color: #111111;
+  font-family: "BPG Glaho Arial";
 }
 .count {
   display: flex;
@@ -468,6 +504,7 @@ aside {
 }
 .count7 a p {
   color: #ff2288;
+  font-family: "BPG Nateli";
 }
 .elements {
   margin-right: 47px;
@@ -495,9 +532,18 @@ aside {
   height: 21px;
   font-size: 16px;
   color: #afafaf;
+  font-family: "BPG Nateli";
 }
 /* hover */
-.home-button:hover {
+.home-button .home-first:hover {
+  transition-property: all;
+  transition-delay: 0.1s;
+  border-radius: 12px;
+  background-color: #ff2288;
+  width: 259;
+  height: 60px;
+}
+.home-first:hover {
   transition-property: all;
   transition-delay: 0.1s;
   border-radius: 12px;
@@ -520,10 +566,10 @@ aside {
   background-color: #f2f2f2;
   width: 1000px;
   height: 72px;
-  
-} 
-.count a:hover {
+}
+.elements a p:hover {
   color: #222222;
+  font-family: "BPG Nateli";
 }
 .count9:hover {
   transition-property: all;
@@ -540,4 +586,152 @@ aside {
   background-color: #f2f2f2;
   width: 1000px;
   height: 72px;
+}
+
+@media (max-width: 1024px) {
+  .input-user {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header-first-group {
+    max-width: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .user-group {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .list-filters {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  aside {
+    display: none;
+  }
+  .section-group-one .avatar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section-group-two {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .all-columns {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .top-designers-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .last-part {
+    display: none;
+  }
+  .schedule {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1768px) {
+  .input-user {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header-first-group {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .user-group {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .list-filters {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  aside {
+    display: none;
+  }
+  .section-group-one {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section-group-two .avatar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .all-columns {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .top-designers-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .last-part {
+    display: none;
+  }
+  .schedule {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 480px) {
+  .input-user {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header-first-group {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .user-group {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .list-filters {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  aside {
+    display: none;
+  }
+  .section-group-one {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .top-designers-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section-group-two .avatar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .all-columns {
+    display: none;
+  }
+  .last-part {
+    display: none;
+  }
+  .schedule {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
